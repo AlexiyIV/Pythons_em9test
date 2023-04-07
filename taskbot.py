@@ -31,3 +31,5 @@ def answer(message):
         bot.send_message(message.chat.id, 'Да ладно тебе, грязь толщиной до сантиметра-не грязь, а больше, сама отваливается')
     elif message.text.lower() == 'поучиться':
         bot.send_message(message.chat.id, 'Правильно, ученье-свет, а неученье-чуть свет и на работу')
+
+bot.polling(none_stop = True)
